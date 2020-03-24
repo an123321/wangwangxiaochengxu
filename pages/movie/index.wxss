@@ -1,0 +1,5 @@
+/* pages/movie/index.wxss */
+page{
+    background-color: #FFFFFF;
+    margin:10rpx; 
+}

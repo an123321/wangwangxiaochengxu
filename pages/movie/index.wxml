@@ -1,0 +1,5 @@
+<!--pages/movie/index.wxml-->
+<view class="page">
+<text> Top250电影</text>
+<view class="content"></view>
+</view>

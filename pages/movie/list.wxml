@@ -1,0 +1,31 @@
+<!--pages/movie/list.wxml-->
+<view>
+
+  <template is="mlist" data="{{...movies}}"></template>
+  <view wx:if="{{isShowLoading}}" class="weui-loading_wrp">
+    <view class="weui-loading"></view>
+  </view>
+</view>
+<view>
+<template name="mlist">
+   <view class="content" wx:for="{{subjects}}" wx:key='this' >
+    <view class="left">
+      <image src="{{item.images.small}}"></image>    
+    </view>
+    <view class="conter">
+      <view>{{item.title}}</view>
+      <view>{{item.original_title}}</view>
+      <view>导演：
+      <block wx:for= "{{item.directors}}">{{item.name}}</block>
+     </view>
+    </view>
+    <view class="right">
+    <view class="view_badge">8</view>
+    </view>
+    <view class="page">
+        
+    </view>
+  </view>
+</template>
+ 
+</view>
