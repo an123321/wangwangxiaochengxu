@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/movie/index",
+    "pages/movie/search",
+    "pages/movie/list",
+    "pages/movie/guide",
+    "pages/movie/desc",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
